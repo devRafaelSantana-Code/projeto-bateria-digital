@@ -15,7 +15,19 @@ Além da execução manual, o projeto conta com um sequenciador rítmico que per
 
 Desenvolvido como parte dos estudos práticos de desenvolvimento web, o projeto utiliza HTML5, CSS3 e JavaScript puro (_Vanilla JavaScript_) para explorar a manipulação do DOM, o tratamento de eventos, a reprodução de áudio e o controle de tarefas assíncronas no navegador.
 
-## 🚀 Funcionalidades
+## 🚀 Visualização do Projeto
+
+Acesse a versão publicada na Vercel e experimente a bateria digital diretamente pelo navegador.
+
+<p align="center">
+  <a href="https://projeto-bateria-digital.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Acessar_Projeto_Online-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Acessar projeto online na Vercel">
+  </a>
+</p>
+
+**Link direto:** https://projeto-bateria-digital.vercel.app/
+
+## ✨ Funcionalidades
 
 - 🥁 **Bateria interativa:** reprodução de sons percussivos por meio de cliques na interface.
 - ⌨️ **Atalhos de teclado:** acionamento das teclas correspondentes aos instrumentos.
@@ -76,7 +88,7 @@ Executa três batidas do primeiro instrumento, intercala pausas e, em seguida, r
 
 ### Delegação de Eventos
 
-Utilização de um único ouvinte de eventos no elemento contêiner da bateria para identificar os botões acionados. A técnica reduz a necessidade de registrar ouvintes individuais em cada botão.
+Utilização de um ouvinte de eventos no elemento contêiner da bateria para identificar os botões acionados. Essa técnica reduz a necessidade de registrar ouvintes individuais em cada botão.
 
 ### Manipulação de Áudio
 
@@ -116,7 +128,7 @@ projeto-bateria-digital/
     └── script.js
 ```
 
-## 💻 Como Executar o Projeto
+## 💻 Como Executar o Projeto Localmente
 
 **1. Clone o repositório**
 
