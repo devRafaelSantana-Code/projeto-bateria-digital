@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Bateria Digital</title>
+      <link rel="stylesheet" href="./style.css" />
+      <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+   </head>
+   <body>
+      <main class="container">
+         <h1>Bateria Digital</h1>
+
+         <div class="keys" role="region" aria-label="Teclas da bateria">
+            <button data-key="keyq" class="key" aria-label="Tocar nota Q">
+               Q
+            </button>
+            <button data-key="keyw" class="key" aria-label="Tocar nota W">
+               W
+            </button>
+            <button data-key="keye" class="key" aria-label="Tocar nota E">
+               E
+            </button>
+
+            <button data-key="keya" class="key" aria-label="Tocar nota A">
+               A
+            </button>
+            <button data-key="keys" class="key" aria-label="Tocar nota S">
+               S
+            </button>
+            <button data-key="keyd" class="key" aria-label="Tocar nota D">
+               D
+            </button>
+
+            <button data-key="keyz" class="key" aria-label="Tocar nota Z">
+               Z
+            </button>
+            <button data-key="keyx" class="key" aria-label="Tocar nota X">
+               X
+            </button>
+            <button data-key="keyc" class="key" aria-label="Tocar nota C">
+               C
+            </button>
+         </div>
+
+         <div class="composer">
+            <input
+               type="text"
+               id="input"
+               placeholder="Faça uma composição (ex: qwe qwe)..."
+               aria-label="Campo de composição musical"
+            />
+            <button id="btn-play">Tocar</button>
+         </div>
+      </main>
+
+      <footer>Criado por Dev. Rafael Santana</footer>
+
+      <audio id="s_keyq" src="./sounds/keyq.wav" preload="auto"></audio>
+      <audio id="s_keyw" src="./sounds/keyw.wav" preload="auto"></audio>
+      <audio id="s_keye" src="./sounds/keye.wav" preload="auto"></audio>
+      <audio id="s_keya" src="./sounds/keya.wav" preload="auto"></audio>
+      <audio id="s_keys" src="./sounds/keys.wav" preload="auto"></audio>
+      <audio id="s_keyd" src="./sounds/keyd.wav" preload="auto"></audio>
+      <audio id="s_keyz" src="./sounds/keyz.wav" preload="auto"></audio>
+      <audio id="s_keyx" src="./sounds/keyx.wav" preload="auto"></audio>
+      <audio id="s_keyc" src="./sounds/keyc.wav" preload="auto"></audio>
+
+      <script src="./script.js"></script>
+   </body>
+</html>
